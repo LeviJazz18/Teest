@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home";
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/about" element={<about />} />
       </Routes>
     </BrowserRouter>
   );
